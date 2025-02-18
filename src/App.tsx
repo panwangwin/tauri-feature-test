@@ -13,8 +13,13 @@ function App() {
     setGreetMsg(await invoke("greet", { name }));
   }
 
+  onOpenUrl((urls) => {
+    console.log(urls);
+  });
+
   useEffect(() => {
     onOpenUrl((urls) => {
+      console.log(urls);
       setGreetMsg(urls[0]);
     });
 

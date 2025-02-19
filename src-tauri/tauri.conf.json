@@ -21,13 +21,6 @@
       "csp": null
     }
   },
-  "plugins": {
-    "deep-link": {
-      "desktop": {
-        "schemes": ["tauri-test"]
-      }
-    }
-  },
   "bundle": {
     "active": true,
     "targets": "all",
